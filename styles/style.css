@@ -45,6 +45,7 @@ body {
     border: 0;
     border-radius: 40px;
     cursor: pointer;
+    transition: background-color 200ms ease-out;
 }
 
 .welcome__button:nth-child(2) {
@@ -58,11 +59,19 @@ body {
         3px 8px 13px hsla(171, 66%, 44%, 0.4);
 }
 
+.welcome__button--ios:hover {
+    background-color: hsl(171, 66%, 50%);
+}
+
 .welcome__button--mac {
     background-color: hsl(233, 100%, 69%);
     box-shadow:
         1px 2px 0px hsl(233, 100%, 60%),
         3px 8px 13px hsla(233, 100%, 69%, 0.4);
+}
+
+.welcome__button--mac:hover {
+    background-color: hsl(233, 100%, 75%);
 }
 
 /* Track */
@@ -226,6 +235,7 @@ body {
     border: 0;
     border-radius: 40px;
     cursor: pointer;
+    transition: background-color 200ms ease-out;
 }
 
 .platform__button:nth-child(2) {
@@ -239,11 +249,19 @@ body {
         3px 8px 13px hsla(171, 66%, 44%, 0.4);
 }
 
+.platform__button--ios:hover {
+    background-color: hsl(171, 66%, 50%);
+}
+
 .platform__button--mac {
     background-color: hsl(233, 100%, 69%);
     box-shadow:
         1px 2px 0px hsl(233, 100%, 60%),
         3px 8px 13px hsla(233, 100%, 69%, 0.4);
+}
+
+.platform__button--mac:hover {
+    background-color: hsl(233, 100%, 75%);
 }
 
 /* Footer */
@@ -280,6 +298,11 @@ body {
 .footer__link {
     text-decoration: none;
     color: inherit;
+    transition: color 200ms ease-out;
+}
+
+.footer__link:hover {
+    color: hsl(171, 66%, 44%);
 }
 
 .footer__image {
@@ -303,6 +326,14 @@ body {
 .footer__social {
     margin-right: 20px;
     cursor: pointer;
+}
+
+.footer__icon {
+    transition: filter 100ms ease-out;
+}
+
+.footer__icon:hover {
+    filter: brightness(0) saturate(100%) invert(60%) sepia(61%) saturate(469%) hue-rotate(121deg) brightness(89%) contrast(96%);
 }
 
 /* Attribution */
