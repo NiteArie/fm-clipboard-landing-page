@@ -121,3 +121,32 @@ body {
     line-height: 1.5;
     color: hsl(201, 11%, 66%);
 }
+
+/* Access */
+
+.access {
+    margin: 80px auto;
+    text-align: center;
+}
+
+.access__title {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.access__desc {
+    max-width: 700px;
+    margin: 20px auto;
+    color: hsl(201, 11%, 66%);
+    line-height: 1.5;
+}
+
+.access__image {
+    margin: 50px auto;
+    max-width: 900px;
+}
+
+.access__illustration {
+    width: 100%;
+    height: auto;
+}
