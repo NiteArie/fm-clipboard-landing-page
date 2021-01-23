@@ -6,4 +6,58 @@
 
 body {
     font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+    color: hsl(210, 10%, 33%);
+}
+
+.welcome {
+    text-align: center;
+    padding-top: 100px;
+    background-image: url("../images/bg-header-desktop.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.welcome__logo {
+    width: 110px;
+}
+
+.welcome__title {
+    margin-top: 50px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.welcome__desc {
+    max-width: 650px;
+    margin: 20px auto 30px;
+    line-height: 1.5;
+    color: hsl(201, 11%, 66%);
+}
+
+.welcome__button {
+    padding: 15px 25px;
+    color: white;
+    font-size: 16px;
+    border: 0;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.welcome__button:nth-child(2) {
+    margin-left: 10px;
+}
+
+.welcome__button--ios {
+    background-color: hsl(171, 66%, 44%);
+    box-shadow: 
+        1px 2px 0px hsl(171, 66%, 30%),
+        3px 8px 13px hsla(171, 66%, 44%, 0.4);
+}
+
+.welcome__button--mac {
+    background-color: hsl(233, 100%, 69%);
+    box-shadow:
+        1px 2px 0px hsl(233, 100%, 60%),
+        3px 8px 13px hsla(233, 100%, 69%, 0.4);
 }
