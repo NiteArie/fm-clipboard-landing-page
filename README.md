@@ -1,5 +1,9 @@
 # fm-clipboard-landing-page (Clipboard Landing Page)
 
+## Live
+
+Live Preview: [https://nitearie.github.io/fm-clipboard-landing-page/](https://nitearie.github.io/fm-clipboard-landing-page/)
+
 ## Design
 
 > Desktop
