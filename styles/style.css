@@ -90,9 +90,6 @@ body {
     grid-template-columns: repeat(2, 1fr);
 }
 
-.track__image {
-}
-
 .track__illustration {
     width: 100%;
     height: auto;
@@ -196,4 +193,54 @@ body {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     align-items: center;
+}
+
+/* Platform */
+
+.platform {
+    text-align: center;
+}
+
+.platform__title {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.platform__desc {
+    margin: 20px auto;
+    max-width: 700px;
+    line-height: 1.5;
+    color: hsl(201, 11%, 66%);
+}
+
+.platform__downloads {
+    margin-top: 40px;
+}
+
+.platform__button {
+    padding: 15px 25px;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1px;
+    border: 0;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.platform__button:nth-child(2) {
+    margin-left: 10px;
+}
+
+.platform__button--ios {
+    background-color: hsl(171, 66%, 44%);
+    box-shadow: 
+        1px 2px 0px hsl(171, 66%, 30%),
+        3px 8px 13px hsla(171, 66%, 44%, 0.4);
+}
+
+.platform__button--mac {
+    background-color: hsl(233, 100%, 69%);
+    box-shadow:
+        1px 2px 0px hsl(233, 100%, 60%),
+        3px 8px 13px hsla(233, 100%, 69%, 0.4);
 }
