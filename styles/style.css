@@ -347,6 +347,10 @@ body {
     color: hsl(228, 45%, 44%); 
 }
 
+.attribution a:hover {
+    color:hsl(171, 66%, 44%);
+}
+
 @media all and (max-width: 850px) {
     .workflow__sponsors {
         margin-left: auto;
