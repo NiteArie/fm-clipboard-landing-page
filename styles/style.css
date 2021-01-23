@@ -297,9 +297,21 @@ body {
 
 .footer__socials {
     display: flex;
+    align-items: center;
 }
 
 .footer__social {
     margin-right: 20px;
     cursor: pointer;
+}
+
+/* Attribution */
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
 }
