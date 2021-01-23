@@ -10,6 +10,8 @@ body {
     color: hsl(210, 10%, 33%);
 }
 
+/* Welcome */
+
 .welcome {
     text-align: center;
     padding-top: 100px;
@@ -30,7 +32,7 @@ body {
 
 .welcome__desc {
     max-width: 650px;
-    margin: 20px auto 30px;
+    margin: 20px auto 40px;
     line-height: 1.5;
     color: hsl(201, 11%, 66%);
 }
@@ -39,6 +41,7 @@ body {
     padding: 15px 25px;
     color: white;
     font-size: 16px;
+    letter-spacing: 1px;
     border: 0;
     border-radius: 40px;
     cursor: pointer;
@@ -60,4 +63,61 @@ body {
     box-shadow:
         1px 2px 0px hsl(233, 100%, 60%),
         3px 8px 13px hsla(233, 100%, 69%, 0.4);
+}
+
+/* Track */
+
+.track {
+    margin: 80px auto;
+    text-align: center;
+}
+
+.track__title {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.track__desc {
+    margin: 20px auto;
+    max-width: 650px;
+    line-height: 1.5;
+    color: hsl(201, 11%, 66%);
+}
+
+.track__features {
+    margin: 40px 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.track__image {
+}
+
+.track__illustration {
+    width: 100%;
+    height: auto;
+    position: relative;
+    left: -50px;
+}
+
+.track__items {
+    margin-top: 40px;
+    margin-left: 40px;
+    text-align: left;
+}
+
+.track__item {
+    max-width: 400px;
+    margin-bottom: 40px;
+}
+
+.track__sub {
+    margin: 15px 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.track__info {
+    line-height: 1.5;
+    color: hsl(201, 11%, 66%);
 }
