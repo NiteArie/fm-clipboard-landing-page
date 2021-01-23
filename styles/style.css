@@ -346,3 +346,136 @@ body {
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+
+@media all and (max-width: 850px) {
+    .workflow__sponsors {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 600px;
+        grid-template-columns: 300px 300px;
+        grid-gap: 20px;
+        /* justify-items: start; */
+    }
+}
+
+@media all and (max-width: 750px) {
+
+    .welcome {
+        padding: 20px;
+        background-image: url("../images/bg-header-mobile.png");
+    }
+
+    .welcome__downloads {
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .welcome__button {
+        margin-bottom: 25px;
+    }
+
+    .welcome__button:nth-child(2) {
+        margin-left: 0;
+    }
+
+    .track {
+        padding: 20px;
+    }
+
+    .track__features {
+        grid-template-columns: 1fr;
+    }
+
+    .track__illustration {
+        position: static;
+    }
+
+    .track__items {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .track__item {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 500px;
+    }
+
+    .access {
+        padding: 20px;
+    }
+
+    .workflow__features {
+        grid-template-columns: 1fr;
+    }
+
+    .workflow__feature {
+        margin-bottom: 40px;
+    }
+
+    .workflow__info {
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .workflow__sponsors {
+        grid-template-columns: 1fr;
+    }
+
+    .workflow__wrapper {
+        margin-bottom: 40px;
+    }
+
+    .platform {
+        padding: 20px;
+    }
+
+    .platform__downloads {
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .platform__button {
+        margin-bottom: 25px;
+    }
+
+    .platform__button:nth-child(2) {
+        margin-left: 0;
+    }
+
+    .footer__wrapper {
+        display: block;
+    }
+
+    .footer__left {
+        display: block;
+    }
+
+    .footer__list {
+        margin-top: 20px;
+        display: block;
+        text-align: center;
+    }
+
+    .footer__image {
+        text-align: center;
+    }
+
+    .footer__right {
+        margin: 20px 0;
+        justify-content: center;
+    }
+
+    .footer__social {
+        margin-left: 20px;
+    }
+}
