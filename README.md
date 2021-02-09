@@ -10,6 +10,10 @@ Live Preview: [https://nitearie.github.io/fm-clipboard-landing-page/](https://ni
 
 ![Desktop Design](./design/desktop-design.jpg)
 
+> Desktop Active State
+
+![Desktop Active](./design/active-states.jpg)
+
 > Mobile
 
 ![Mobile Design](./design/mobile-design.jpg)
